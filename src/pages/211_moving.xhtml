@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html>
+<html 
+  xmlns="http://www.w3.org/1999/xhtml" 
+  xmlns:epub="http://www.idpf.org/2007/ops" lang="en" xml:lang="en">
+  <head>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <link rel="stylesheet" type="text/css" href="../../resources/css/style.css"/>
+    <title>Moving around in a book</title>
+    <link rel="stylesheet" type="text/css" href="../../resources/css/page.css"/>
+  </head>
+  <body>
+    <p>The navigation options can be very different from one book to another.
+Thorium allows the following.
+The navigation options can be very different from one book to another. Thorium allows:</p>
+    <ul>
+      <li>Move forward and backward in the reading</li>
+      <li>use table of contents, reference points and pagination (which must be included by the book's producing organization)</li>
+      <li>go to previous and next navigation points</li>
+      <li>move backward and forward in the history of navigation actions</li>
+    </ul>
+    <h2>history navigation: jump back &amp; forward to reading points (new in Thorium 2.2. EPUB only)</h2>
+    <p>While reading, user has the power to navigate from one point to another using Navigation panel or following a link into the publication. This activates jump back (
+      <kbd>Ctrl</kbd>  +  
+      <kbd>backspace</kbd>) and jump forward (
+      <kbd>Ctrl</kbd>  +  
+      <kbd>Shift</kbd> + 
+      <kbd>backspace</kbd>) buttons on the bottom left of the reading window. Use this buttons to find a precedent place and return to the last place.
+    </p>
+    <p>History Navigation takes into account user interactions, including clicks on bottom timeline, TOC, bookmarks, landmarks, where am I headings, go to page. It does not takes into account search previous and next and list links.</p>
+    <h2>Move forward and backward</h2>
+    <p>To navigate forward and backward in the content of the book you can
+use the arrows on your keyboard or click on the navigation arrows
+located at the bottom right of the reading interface
+(
+      <img class="icons" src="../../resources/images/icons/baseline-arrow_left_ios-24px.svg" alt="Previous content button"/>
+      <img class="icons" src="../../resources/images/icons/baseline-arrow_forward_ios-24px.svg" alt="Next content button"/>).
+    </p>
+    <p>It is possible to move between chapters using
+
+      <kbd>Ctrl</kbd> + 
+      <kbd>Previous page (Page Up)</kbd> (previous chapter) and
+
+      <kbd>Ctrl</kbd> + 
+      <kbd>Next page (Page Down)</kbd> (next chapter)
+or 
+      <kbd>Ctrl</kbd> + 
+      <kbd>Shift</kbd> + 
+      <kbd>ALT</kbd>
+(except on MacOS) + 
+      <kbd>←</kbd>
+(previous chapter)
+and 
+      <kbd>Ctrl</kbd> + 
+      <kbd>Shift</kbd> + 
+      <kbd>ALT</kbd>
+(except on MacOS) + 
+      <kbd>→</kbd>
+(next chapter).
+    </p>
+    <div class="alert">
+      <p>Attention!</p>
+      <p>There are two different shortcuts to go to the next or previous chapter.
+Depending on your configuration and whether or not you use a screen reader,
+it is possible that only one of these two combinations works.</p>
+    </div>
+    <h2>The table of contents</h2>
+    <p>The table of contents represents the architecture of the book as defined by
+the book's producing organization.</p>
+    <p>The first level titles are indicated without margin, those with
+subtitles (or second level title) are presented with a lightgray background.
+The sub-headings are shifted from the margin to the left and a
+vertical line makes it easy to know
+to which level of title they belong.</p>
+    <p>You can use the title level navigation functions
+(
+      <kbd>NVDA</kbd> + 
+      <kbd>H</kbd>)
+to explore and move through the table of contents.
+    </p>
+  </div>
+  <img src="../../resources/images/local-fr/thorium-TDM-light.png" alt="Screenshot, table of contents: Titles Level 1 Cover, Title, Copyright, Dedicae, Exergue, Introduction, The Mark of Four; Title Level 2 Deduction elevated to a science."/>
+  <h2>Landmarks</h2>
+  <p>Good-quality digital books have markers that allow you to
+identify and quickly reach the main parts of a book.</p>
+  <div class="info">
+    <p>Information</p>
+    <p>Each EPUB publication should include a guide to all major
+landmarks. The titles of the landmarks are at the discretion of the publisher
+choice, but the nature of each landmark must be identified according to a
+semantic vocabulary. The main ones are:</p>
+    <ul>
+      <li>Main text (bodymatter)</li>
+      <li>Table of contents (toc)</li>
+      <li>bibliography</li>
+      <li>index</li>
+      <li>glossary</li>
+    </ul>
+    <p>The 
+      <a href="https://www.w3.org/TR/epub-ssv/">complete list of semantic vocabulary EPUB in English</a>
+is available on the W3C website.
+    </p>
+  </div>
+  <img src="../../resources/images/local-fr/thorium-reperes.png" alt="Screenshot, Go to page. Current page: 3. A drop-down menu indicates 3, an editable field indicates Enter page number, a button indicates Go to."/>
+  <div class="danger">
+    <p>Attention !</p>
+    <p>PDF bookmarks used to compensate for the lack of a table of contents
+in this format are not interpreted by Thorium.</p>
+    <p>Unlike Landmarks, Bookmarks are made for users who want to place a mark into a book.</p>
+  </div>
+  <h2>The reference pages</h2>
+  <p>Digital books can have a reference pagination allowing
+correspondence to the pagination of the printed book.</p>
+  <p>There is a navigation option to go to the page.
+When you access it, this option shows the current page.</p>
+  <p>There is also a keyboard shortcut for this function. Press the
+
+    <kbd>Ctrl</kbd> + 
+    <kbd>Shift</kbd> + 
+    <kbd>P</kbd>,
+then enter the page number in the edit box by typing it or
+changing the value using the 
+    <code>Go to page</code> box.
+  </p>
+  <img src="../../resources/images/local-fr/thorium-gotopage.png" alt="Screenshot, Go to page. Current page: 3. A drop-down menu indicates 3, an editable field indicates Enter page number, a button indicates Go to."/>
+  <div class="warning">
+    <p>Attention !</p>
+    <p>
+      <a href="../420_glossary/index.xhtml#AdaptedBooks">Adapted books</a> sometimes use the reference pagination to offer a regular
+book breakdown to readers without reproducing the pagination of the
+original pagination. In this case the reference pagination cannot be used
+to refer to the printed book.
+    </p>
+  </div>
+</body>
+</html>

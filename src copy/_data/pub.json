@@ -1,0 +1,13 @@
+{
+  "cover": {
+    "page": "cover/index.xhtml",
+    "src": "resources/images/cover.png",
+    "alt": "Cartoon bear with construction tools"
+  },
+  "toc": {
+    "page": "toc/index.xhtml"
+  },
+  "readingOrder": [
+    "_index.md ", "000_todo.md ", "100_quickStart.md ", "110_notes.md ", "210_reading.md ", "211_moving.md ", "212_ImageZoom.md ", "212_whereAmI.md ", "213_search.md ", "214_bookmarks.md ", "215_ReadingParameters.md ", "220_organizing.md ", "221_libraries.md ", "221_maths.md ", "222_catalogs.md ", "223_search.md ", "223_tags.md ", "230_TTS.md ", "300_accessibility.md ", "301_A11yInfos.md ", "310_natives.md ", "310_screenReaders.md ", "391_epubTest.md ", "400_ressources.md ", "401_functions.md ", "402_Keyboard-shortcuts.md ", "403_gesture.md ", "406_formats.md ", "420_glossary.md ", "430_faq.md ", "900_about.md ", "902_credits.md ", "903_support.md ", "904_issues.md ", "905_contribute.md ", "912_accessibility_declaration.md ", "913_licence.md"
+  ]
+}
